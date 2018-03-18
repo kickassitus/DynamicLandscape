@@ -1,45 +1,47 @@
-## Current Version - 0.1.0-alpha
+## Current Version - 0.1.0
 
-# IMPORTANT - This project is coming soon.
-
-# DynamicLandscapeMaterial
-DynamicLandscapeMaterial (DLM) is a project with the intention of creating a multi-method approach to texturing landscapes within UE4. 
+# bkincz's Landscape Material
+bkincz's Landscape Material (bLM) is a project with the intention of creating a multi-method approach to texturing landscapes within UE4.
 
 # Description
-DLM was created for the sole purpose of providing users with a multi method texturing tool for landscapes in UE4. This means users can decide between hand-painting, auto slope/height, splatmap or weighted texture methods within one master material.
+bLM was created for the sole purpose of providing users with a multi method texturing tool for landscapes in UE4. This means users can decide between hand-painting, splatmap or weighted texture methods.
 
-This material was creating using methods provided by a lot of people from various places around the internet including Epic Games, Unreal Forums and random Tutorial blogs.
+This material was creating using methods provided by a lot of people from various places around the internet including Epic Games, Unreal Forums, YouTube and random Tutorial blogs.
 Every technique used here can be found online somewhere with a bit of dedicated googling. This is why it is free!
 
 ## Current Features
+Included Material Functions:
+- Distance Based Tessellation
+- Distance Based Displacement
+- Distance Fade
+- Macro Variation
+- Slope Based Alpha
+- Standard Texture Layer
+- Tri-Planar Texture Layer
 
-Texturing:
-- 4-8 Active Layers
+Master Material Features:
+- 5+ Active Layers
 - Standard Macro Variation
 - Distance Based Tessellation
-- Distance Based Parallax Occlusion Mapping
 - Distance Based Detail Mapping
 - Tri-Planar Texturing
-- Splatmap Support
+- Multi Splatmap Support (Support for 2+ Splatmaps for extra detail)
 - Global Normal Support
 - Height based Texture Blending
+- Auto Slope based Texturing
 
 ## Future/Intended Features:
++ Grass Tool:
+  - Splat/Noise Map based Grass Variation/Grouping
 
-Texturing:
-- Multi Splatmap Support
-- Biome Texturing
-- Auto Slope/Height based Texturing
-
-Grass Tool:
-- Splat/Noise Map based Grass Variation/Grouping
++ Standard Optimizations
 
 # Installation
-Simply move the 'DynamicLandscape' folder into your 'Content' folder within your project. 
-Example: 'C:/../../ProjectName/Content/DynamicLandscape'
+Simply move the 'bkinczLandscape' folder into your 'Content' folder within your project. 
+Example: 'C:/../../ProjectName/Content/bkinczLandscape'
 
 # How to Use
-When importing/creating a new landscape, simply select 'M_DLM_Inst' as your landscape material.
+When importing/creating a new landscape, simply select 'M_bLM_Inst' as your landscape material.
 
 ## Tutorials
 Tutorials will be coming soon!
